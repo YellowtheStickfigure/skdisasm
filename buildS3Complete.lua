@@ -29,4 +29,4 @@ end
 -- Correct the ROM's header with a proper checksum and end-of-ROM value.
 common.fix_header("sonic3k.bin")
 
-os.exit(exit_code, false)
+os.exit(exit_code, true)
